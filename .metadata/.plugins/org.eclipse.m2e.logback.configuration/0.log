@@ -1,0 +1,10 @@
+2022-06-07 14:14:22,950 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-07 14:14:58,919 [Worker-21: Creating project "submarine"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ajbc.submarine:submarine:0.0.1-SNAPSHOT @ C:\Users\amirs\eclipse-workplaces\SubmarineProject\submarine\pom.xml.
+2022-06-07 14:14:59,424 [Worker-21: Creating project "submarine"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /submarine/src/main/java
+2022-06-07 14:14:59,425 [Worker-21: Creating project "submarine"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /submarine/src/main/resources
+2022-06-07 14:14:59,428 [Worker-21: Creating project "submarine"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /submarine/src/test/java
+2022-06-07 14:14:59,428 [Worker-21: Creating project "submarine"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /submarine/src/test/resources
+2022-06-07 14:14:59,989 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-07 14:14:59,992 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-07 14:14:59,994 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-07 14:14:59,994 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
