@@ -34,11 +34,17 @@ public class SubGame {
 		logicBoard = new Board();
 		playerBoard = new Board();
 		subArr = new Submarine[NUM_OF_SUBS]; 
-		
-		player = new Player("Gabi Kapsarov", "kas@gmail.com", "0525554432");
-		
+				
 		isReplay = false;
 		isConsecutiveHit = false;
+	}
+	
+	public void setPlayer(Player player) {
+		this.player = player; 
+	}
+	
+	public void setPlayer(String name, String email, String phoneNumber) {
+		player = new Player(name, email, phoneNumber);
 	}
 	
 	private void generateSubmarines() {
@@ -139,6 +145,7 @@ public class SubGame {
 			playerBoard.setData('m', inputY, inputX);
 			logicBoard.setData('m', inputY, inputX);
 			player.subtractScore(SCORE_LOSS_ON_MISS);
+			
 			if (!isReplay) {
 				player.addGuess(inputX, inputY);
 			}
